@@ -10,6 +10,7 @@ dependencies:
   react-dom: 16.13.1_react@16.13.1
   react-router-dom: 5.2.0_react@16.13.1
   react-scripts: 3.4.1
+  react-sprite-animator: 2.0.0_react-dom@16.13.1+react@16.13.1
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.4:
@@ -9534,6 +9535,18 @@ packages:
         optional: true
     resolution:
       integrity: sha512-JpTdi/0Sfd31mZA6Ukx+lq5j1JoKItX7qqEK4OiACjVQletM1P38g49d9/D0yTxp9FrSF+xpJFStkGgKEIRjlQ==
+  /react-sprite-animator/2.0.0_react-dom@16.13.1+react@16.13.1:
+    dependencies:
+      prop-types: 15.7.2
+      raf: 3.4.1
+      react: 16.13.1
+      react-dom: 16.13.1_react@16.13.1
+    dev: false
+    peerDependencies:
+      react: ^16.13.1
+      react-dom: ^16.13.1
+    resolution:
+      integrity: sha512-a9iFeamygHwWqZtSbVUBaeJtn3fz40HxKQ8ljNpd69ZaqjFHc9Up2As5lbO49kohW9qyCOvub1uJw05JwcKsdw==
   /react-transition-group/4.4.1_react-dom@16.13.1+react@16.13.1:
     dependencies:
       '@babel/runtime': 7.10.4
@@ -11863,3 +11876,4 @@ specifiers:
   react-dom: ^16.13.1
   react-router-dom: ^5.2.0
   react-scripts: 3.4.1
+  react-sprite-animator: ^2.0.0
