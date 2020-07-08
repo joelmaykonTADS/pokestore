@@ -79,8 +79,8 @@ export default function SearchAppBar() {
                         <MenuIcon />
                     </IconButton>
                     <Typography className={classes.title} variant="h6" noWrap>
-                        Material-UI
-          </Typography>
+                        POKE STORE
+                    </Typography>
                     <div className={classes.search}>
                         <div className={classes.searchIcon}>
                             <SearchIcon />
